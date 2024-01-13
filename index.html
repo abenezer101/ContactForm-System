@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-image">
+    </div>
+    <form action="http://telegrambotbackendtest.onlinewebshop.net/bot-backend-code.php" method="post">
+        <div class="head">
+            <h1>Contact Form</h1>
+            <p>Enter the feilds below</p>
+
+        </div>
+
+        <label for="FullName">Your Name:</label>
+        <input type="text" placeholder="Full Name" name="name" id="name">
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="email@enattechnologies.com" name="email" id="email" required>
+
+        <label for="subject">subject:</label>
+        <input type="subject" placeholder="subject" name="subject" id="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea placeholder="Type your message here" name="message" id="message" required></textarea>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
